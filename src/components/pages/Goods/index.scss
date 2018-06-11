@@ -1,0 +1,25 @@
+.classify{
+    color:#000;
+    .title{
+        font-size:16px;line-height:.36rem;background:#fff;padding-left:10px;
+        margin:1px 0 3px;      
+    }  
+}
+.img-content{
+    display:flex;flex-wrap:wrap;justify-content:space-between; 
+    .class_img{
+        height:1.23rem;background:#fff;width:.93rem;
+        margin-bottom:1px;display: block;
+        >img{
+            width:.66rem;height:.82rem;margin:0 .14rem .1rem;
+        }
+        >p{
+            text-align:center;font-size:14px;line-height:24px;
+        }
+    }
+}
+.kind{
+    .top{
+        background:#fff;
+    }
+}

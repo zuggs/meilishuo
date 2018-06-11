@@ -1,0 +1,90 @@
+.mine{
+    height:100%;   
+    .content{
+        padding: .5rem .15rem 0;
+        .account{
+            >p{
+                font-size: 0.14rem;
+                text-align: center;
+                line-height: 0.14rem;
+                color: #666;
+                margin-bottom: 0.2rem;
+            }
+            >input{
+                margin-bottom: 0.25rem;
+                height: 0.31rem;
+                line-height: 0.31rem;
+                width: 100%;
+                display: block;
+                text-align: center;
+                padding-bottom: 0.07rem;
+                font-size: 0.28rem;
+                border: none;
+                border-bottom: 1px solid #ededed;
+                color: #333;
+            }
+        }
+        button{
+            width: 100%;
+            font-size: 0.18rem;
+            height: .5rem;
+            line-height: .5rem;
+            display: inline-block;
+            background: #ff1877;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+        .info{
+            font-size: .14rem;color:#999;display: flex;
+            justify-content:space-between;padding-top:.13rem;
+            .regi{
+                color:#ff5777;
+            }
+        }
+    }
+    
+}
+.user{
+    flex:1;
+    >.user-header{
+      height:1rem;display:flex;background:skyblue;color:#fff;align-items:center;
+      margin-bottom:.2rem;
+      >img{
+        width:.63rem;height:.63rem;border-radius:50%;margin:0 .14rem;
+      }
+      >p{
+        font-size:.14rem;
+      }
+      >.loginoff{
+        margin-left:.3rem;font-size:16px;
+      }
+    }
+>.user-lists{  
+    .user-list{
+    display:flex;justify-content:space-between;height:.56rem;align-items:center;
+    background:#fff;margin:.03rem 0; padding:0 .12rem;font-size:.16rem;
+    >.list-left{
+        >i{color:#ff1268}
+        >span{color:#666}
+    }
+    >.list-right{
+        >i{color:#999}
+    }
+    }
+    }
+}
+body,html{
+    height:100%;background:#fff;
+}
+.top{
+    height:.44rem;display: flex;justify-content: space-around;
+    align-items:center;font-size:18px;background:#f4f4f4;
+    >.top-login{
+        width:2rem;text-align: center;
+    }
+}

@@ -1,0 +1,39 @@
+
+.app-header{
+    height: .45rem;
+    background: #fff;
+    .head-L{
+        float: left;
+        width: .29rem;
+        height: .45rem;
+        background: url('../../../assets/images/logo.png') no-repeat center center;
+        background-size: 100%;
+        margin: 0 15px;
+    }
+    .head-R{
+        float: right;
+        width: .49rem;
+        height: .28rem;
+        text-align: center;
+        line-height: .28rem;
+        margin-top: 7.5px;
+        i{
+            font-size: 22px;
+            color: #999;
+        }
+        
+    }
+    .search{
+        float: left;
+        width: 2.65rem;
+        height: .28rem;
+        padding: 7.5px 7.5px 7.5px 27.5px;
+        border: none;
+        background: #f4f4f4 url('../../../assets/images/search.png') no-repeat 10px center;
+        background-size: auto 13px;
+        border-radius: 5px;
+        font-size: 12px;
+        color: #333;
+        margin-top: 8px;
+    }
+}
